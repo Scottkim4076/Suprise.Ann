@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>A Question for You</title>
+  <style>
+    body {
+      background-color: #fff0f5;
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 2.5em;
+      color: #d6336c;
+      margin-bottom: 30px;
+    }
+    .btn {
+      background-color: #ff6f91;
+      color: white;
+      padding: 15px 30px;
+      margin: 15px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1.2em;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+    .btn:hover {
+      background-color: #ff4d6d;
+    }
+  </style>
+</head>
+<body>
+  <h1>I’ve got a question for you...</h1>
+  <button class="btn" onclick="location.href='simple.html'">Simple 💖</button>
+  <button class="btn" onclick="location.href='spicy.html'">Spicy 🔥</button>
+</body>
+</html>
